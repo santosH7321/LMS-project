@@ -1,10 +1,13 @@
+import './App.css';
 
-import './App.css'
+import { Routes }  from 'react-router-dom';
 
 function App() {
   return (
     <div>
-      <h1 className='flex justify-center items-center text-4xl font-bold'>Hello Santosh</h1>
+      <Routes>
+      {/* {Routs path='/' element={<Home />} ><Route} */}
+      </Routes>
     </div>
   )
 }
